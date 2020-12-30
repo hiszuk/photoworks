@@ -1,0 +1,36 @@
+{
+  "name": "photoworks",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.4",
+    "@sendgrid/mail": "^7.4.0",
+    "core-js": "^3.6.5",
+    "fs": "0.0.1-security",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.14.6",
+    "nuxt-buefy": "^0.4.3",
+    "sass-loader": "^10.0.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemailer": "^6.4.17",
+    "prettier": "^2.1.2",
+    "vee-validate": "^3.4.5"
+  }
+}
